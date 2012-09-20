@@ -1,0 +1,149 @@
+body {
+	background-image: url('../assets/blackboard.jpg');
+	margin: 0;
+}
+.game-title {
+	width: 500px;
+	margin: 20px auto 10px;
+}
+a img { border: 0; }
+.game { 
+	width: 960px;
+	margin: 0 auto;
+	display: block !important;
+	margin-top: 40px;
+}
+.square {
+	float: left;
+	width: 195px;
+	height: 181px;
+}
+#grid {
+	float: left;
+	background-image: url('../assets/board.png');
+	width: 400px;
+	height: 557px;
+}
+#man {
+	display: block;
+	width: 221px;
+	margin-top:50px;
+}
+#press-space {
+	display: block;
+	margin: 0 auto;
+}
+#score {
+	display:block;
+	margin-top: 50px;
+	float:right;
+	width: 150px;
+	height: 30px;
+	padding: 20px;
+}
+.game-side {
+	float: left;
+	width: 500px;
+	overflow: hidden;
+}
+.square { /* image container */
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+	
+.beans {
+	background-image: url('../assets/items/beans.png');
+
+}
+.biscuits {
+	background-image: url('../assets/items/biscuits.png');
+}
+.oboe {
+	background-image: url('../assets/items/oboe.png');
+}
+.flowers {
+	background-image: url('../assets/items/flowers.png');
+}
+.gokart {
+	background-image: url('../assets/items/gokart.png');
+}
+.spanner {
+	background-image: url('../assets/items/spanner.png');
+}
+.guitar {
+	background-image: url('../assets/items/guitar.png');
+}
+.keyboard {
+	background-image: url('../assets/items/keyboard.png');
+}
+.brownie {
+	background-image: url('../assets/items/brownie.png');
+}
+.chair {
+	background-image: url('../assets/items/chair.png');
+}
+.cinema {
+	background-image: url('../assets/items/cinema.png');
+}
+.clarinet {
+	background-image: url('../assets/items/clarinet.png');
+}
+.flute {
+	background-image: url('../assets/items/flute.png');
+}
+.teacup {
+	background-image: url('../assets/items/teacup.png');
+}
+.trumpet {
+	background-image: url('../assets/items/trumpet.png');
+}
+.popcorn {
+	background-image: url('../assets/items/popcorn.png');
+}
+.messageApron {
+	top: 0px;
+	position:absolute;
+	display:none;
+	width: 100%;
+	height: 100%;
+	background-image: url('../assets/transparent.png');
+}
+.messageWindow {
+	/*background-image: url('../assets/messageWindow.png');*/
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	width: 528px;
+	height: 386px;
+	margin-top: -193px;
+	margin-left: -259px;
+	color: white;
+}
+
+.messageWindow.ending {
+	top: 180px;
+}
+.messageWindow img {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
